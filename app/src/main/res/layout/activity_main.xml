@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.heepie.campusnavigation.Concrete.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#021f7b"
+        android:orientation="horizontal"
+        android:layout_margin="2dp"
+        >
+
+        <!-- Menu Button Layout -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#021f7b"
+            android:weightSum="1"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                />
+
+        </LinearLayout>
+
+        <!-- Search Edit Text Layout -->
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="5"
+            android:background="#021f7b"
+            android:orientation="vertical"
+            >
+
+            <!--TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Please Select a building"
+                android:textSize="20dp"
+                android:textColor="#ffffff"/-->
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:spinnerMode="dropdown"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#021f7b">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:onClick="onClickMenu"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/map"
+                class="com.google.android.gms.maps.MapFragment"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_alignParentTop="true" />
+
+            <ToggleButton
+                android:layout_weight="2.5"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:id="@+id/btn_arrow"
+                android:layout_gravity="center"
+                android:onClick="onClickedToggle"
+                android:textOff=""
+                android:textOn=""
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="17dp"
+                android:layout_marginTop="70dp"
+                />
+
+            <LinearLayout
+                android:id="@+id/linear_toggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:paddingTop="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/btn_arrow"
+
+
+                >
+
+                <ToggleButton
+                    android:id="@+id/togBtn01"
+                    android:layout_width="45dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:textOff=""
+                    android:textOn=""
+                    android:onClick="onClickedToggle"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    />
+
+                <ToggleButton
+                    android:id="@+id/togBtn02"
+                    android:layout_width="45dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:textOff=""
+                    android:textOn=""
+                    android:onClick="onClickedToggle"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    />
+
+                <ToggleButton
+                    android:id="@+id/togBtn03"
+                    android:layout_width="45dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:textOff=""
+                    android:textOn=""
+                    android:onClick="onClickedToggle"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    />
+
+                <ToggleButton
+                    android:id="@+id/togBtn04"
+                    android:layout_width="45dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:textOff=""
+                    android:textOn=""
+                    android:onClick="onClickedToggle"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    />
+
+                <ToggleButton
+                    android:id="@+id/togBtn05"
+                    android:layout_width="45dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:textOff=""
+                    android:textOn=""
+                    android:onClick="onClickedToggle"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    />
+
+                <ToggleButton
+                    android:id="@+id/togBtn06"
+                    android:layout_width="45dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:textOff=""
+                    android:textOn=""
+                    android:onClick="onClickedToggle"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
