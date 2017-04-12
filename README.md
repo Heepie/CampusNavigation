@@ -11,8 +11,8 @@ This application provides three main services.
 + Info each building`s information about office and class such as classroom name, office phone number and so on.
 
 ## 3. Enviroment
-Minimum Android: 
-DB: 
++ Minimum Android: 
++ DB: 
 
 ## 4. Screenshot
 ![](./chrisite_screenshot.png)
