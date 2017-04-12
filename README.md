@@ -10,6 +10,12 @@ This application provides three main services.
 + Shows location of building where user wants to go and distance and duration to destination building. Also it shows route by color line. 
 + Info each building`s information about office and class such as classroom name, office phone number and so on.
 
-## 3. Effect
+## 3. Enviroment
+Minimum Android: 
+DB: 
 
-## 4. Project Period
+## 4. Screenshot
+![](./chrisite_screenshot.png)
+
+## 5. Copyright
+(C) 2015. Kotra-Iolite India intern 3 batch & Christ University all rights reserved.
