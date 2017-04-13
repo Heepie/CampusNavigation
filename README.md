@@ -1,5 +1,7 @@
 # CampusNavigation
 
+This app is the test app. So we did NOT upload in app store.
+
 ## 1. Why did we kick-off this project?
 When we arrived at India, we was surprised by campus size in India.
 Because of campus size, It was so difficult to find each building. So we have developed this Map Application targeting the new comers of Christ University and also the students already studying in the college. **The purpose of this application is helping new comer to find building easily and offer information about campus**.
