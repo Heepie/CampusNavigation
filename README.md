@@ -1,6 +1,6 @@
 # CampusNavigation
 
-This app is the test app. So we did NOT upload in app store.
+This app is the test app. So we did NOT upload in the android app store.
 
 ## 1. Why did we kick-off this project?
 When we arrived at India, we was surprised by campus size in India.
